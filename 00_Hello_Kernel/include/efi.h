@@ -1,6 +1,7 @@
 typedef unsigned short CHAR16;
 typedef unsigned long long EFI_STATUS;
 
+//dox.ipxe.org/UefiSpec_8h_source.html
 struct EFI_SYSTEM_TABLE {
   char _dummy[24];//Delete this, rebuild, and try to run!
   CHAR16 *FirmwareVendor;
